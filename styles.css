@@ -1,0 +1,136 @@
+:root {
+    color-scheme: light dark;
+    --bg: #0f1419;
+    --surface: #1a2332;
+    --text: #e8eef5;
+    --muted: #9aa8b8;
+    --accent: #2dd4bf;
+    --border: #2a3647;
+    --max: 720px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f4f7fa;
+        --surface: #ffffff;
+        --text: #1a2332;
+        --muted: #5a6b7d;
+        --accent: #0d9488;
+        --border: #d8e0ea;
+    }
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+}
+
+header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 1.25rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-inner {
+    max-width: var(--max);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1rem;
+    justify-content: space-between;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.lang-select label {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-right: 0.5rem;
+}
+
+.lang-select select {
+    font: inherit;
+    padding: 0.35rem 0.6rem;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+}
+
+main {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 2rem 1.25rem 3rem;
+}
+
+.notice {
+    background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    color: var(--muted);
+}
+
+h1 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+    margin: 0 0 0.5rem;
+}
+
+.updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+section {
+    margin-bottom: 1.75rem;
+}
+
+h2 {
+    font-size: 1.15rem;
+    margin: 0 0 0.65rem;
+    color: var(--accent);
+}
+
+p, li {
+    margin: 0 0 0.65rem;
+}
+
+ul {
+    margin: 0 0 0.65rem;
+    padding-left: 1.25rem;
+}
+
+a {
+    color: var(--accent);
+}
+
+footer {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 0 1.25rem 2rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+.loading {
+    color: var(--muted);
+    padding: 2rem 0;
+}

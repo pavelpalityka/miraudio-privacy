@@ -1,0 +1,172 @@
+{
+  "title": "Privacy Policy — Miraudio",
+  "updatedLabel": "Last updated: 12 August 2026",
+  "footer": "© 2026 Pavel Palityka · Miraudio",
+  "fallbackNotice": "Den fulde tekst vises på engelsk. Den bindende version er den engelske.",
+  "sections": [
+    {
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "This Privacy Policy explains how <strong>Miraudio</strong> (the mobile application “Miraudio” / “Miraudio Pro”, package <code>com.palityka.miraudio</code>) processes information when you use the app on Android."
+        },
+        {
+          "type": "p",
+          "html": "Miraudio is a local music player. It does <strong>not</strong> require an account, and it does <strong>not</strong> upload your music library to our servers."
+        }
+      ]
+    },
+    {
+      "title": "Data controller",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "<strong>Controller:</strong> Pavel Palityka<br><strong>Contact:</strong> <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a>"
+        }
+      ]
+    },
+    {
+      "title": "Information processed by the app",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Depending on how you use Miraudio, the following categories of data may be processed:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Music on your device</strong> — file names, paths or content URIs, duration, and metadata tags (title, artist, album, cover art) read from audio files you choose to scan or open. This data is used to build your local library and is stored on your device.",
+            "<strong>App settings and library database</strong> — theme, language, equalizer presets, selected folders, excluded folders, playback preferences, and similar settings stored locally (for example in a SQLite database and Android shared preferences).",
+            "<strong>Playback state</strong> — current track, queue, and position needed for background playback and media controls.",
+            "<strong>Purchase status</strong> — whether you unlocked Miraudio Pro via Google Play in-app billing. Verification is handled by Google; we store only the resulting Pro/unlock flag on your device.",
+            "<strong>Advertising data (free version)</strong> — if you use the free edition with ads, Google AdMob may collect device identifiers, IP address, ad interaction data, and similar information as described in Google’s policies (see Third parties below)."
+          ]
+        },
+        {
+          "type": "p",
+          "html": "We do <strong>not</strong> knowingly collect your name, email address, or phone number through the app itself unless you contact us by email."
+        }
+      ]
+    },
+    {
+      "title": "Android permissions",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "The app may request permissions required for its features:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Read audio / media</strong> — to scan and play music files you grant access to (MediaStore and, optionally, folder access via the system file picker).",
+            "<strong>Internet & network state</strong> — to load advertisements (free version) and to communicate with Google Play for purchases.",
+            "<strong>Notifications & foreground service</strong> — to show playback controls while music plays in the background.",
+            "<strong>Wake lock</strong> — to keep playback stable during background use."
+          ]
+        },
+        {
+          "type": "p",
+          "html": "You can revoke permissions in Android system settings; some features may stop working if you do."
+        }
+      ]
+    },
+    {
+      "title": "How we use information",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "Play and organize music on your device",
+            "Remember your settings, library, and queue",
+            "Show optional ads in the free version",
+            "Process in-app purchases through Google Play",
+            "Respond to support requests you send us"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Third-party services",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Miraudio integrates services operated by third parties:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Google AdMob</strong> (free version) — advertising. See <a href=\"https://policies.google.com/privacy\" rel=\"noopener\">Google Privacy Policy</a> and <a href=\"https://support.google.com/admob/answer/6128543\" rel=\"noopener\">AdMob &amp; privacy</a>. You can limit ad personalization in your Google/Android ad settings.",
+            "<strong>Google Play Billing</strong> — in-app purchases for Miraudio Pro. Payment and purchase records are processed by Google. See <a href=\"https://payments.google.com/payments/apis-secure/get_legal_document?ldl=en_GB&amp;ldo=0&amp;ldt=buyertos\" rel=\"noopener\">Google Play Terms</a>."
+          ]
+        },
+        {
+          "type": "p",
+          "html": "These providers may process data on servers outside your country. Their use of data is governed by their own policies."
+        }
+      ]
+    },
+    {
+      "title": "Data storage and retention",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Library data and settings remain on your device until you clear app data, uninstall the app, or delete items inside the app. We do not operate a cloud backup of your music library."
+        },
+        {
+          "type": "p",
+          "html": "If you email us for support, we keep your message only as long as needed to handle the request."
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "We use reasonable measures to protect data stored by the app on your device. No method of storage or transmission is 100% secure."
+        }
+      ]
+    },
+    {
+      "title": "Children",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Miraudio is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children."
+        }
+      ]
+    },
+    {
+      "title": "Your rights",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Depending on your location (for example the EU/EEA under GDPR), you may have rights to access, rectify, erase, restrict, or object to processing of personal data, and to lodge a complaint with a supervisory authority."
+        },
+        {
+          "type": "p",
+          "html": "Because most data stays on your device, you can often exercise these rights by clearing app data or uninstalling the app. For AdMob-related data, use Google’s ad settings and privacy tools. Contact us at <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a> for other requests."
+        }
+      ]
+    },
+    {
+      "title": "Changes",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "We may update this policy from time to time. The “Last updated” date at the top will change when we do. Continued use of the app after changes means you accept the updated policy."
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Questions about this policy: <a href=\"mailto:pavelpalityka@gmail.com\">pavelpalityka@gmail.com</a>"
+        }
+      ]
+    }
+  ]
+}
