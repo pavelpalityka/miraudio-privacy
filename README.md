@@ -21,7 +21,17 @@ Static multilingual privacy policy for **Google Play Console** and the in-app **
 2. In Play Console → **App content** → **Privacy policy**, paste that URL.
 3. Update the URL in `AppSettings::privacyPolicyUrl()` if it differs from the default.
 
-Required because Miraudio uses **CAS.AI** advertising and **Google Play Billing**.
+Required because Miraudio uses **Appodeal** advertising mediation and **Google Play Billing**.
+The policy must mention collection of **IP address** and **advertising identifier (GAID)** and link to [Appodeal’s privacy policy](https://www.appodeal.com/privacy-policy).
+
+## app-ads.txt
+
+Place `app-ads.txt` (this folder) at the **root of the developer website domain** listed in Google Play, for example:
+
+`https://pavelpalityka.github.io/app-ads.txt`
+
+Crawlers look at the domain root, not `…/miraudio-privacy/app-ads.txt`.
+The file already has Appodeal account `439467`. AdMob / Meta placeholder lines are commented out until you have your own IDs.
 
 ## Hosting options
 
