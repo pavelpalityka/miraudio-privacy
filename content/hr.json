@@ -1,6 +1,6 @@
 {
   "title": "Privacy Policy — Miraudio",
-  "updatedLabel": "Last updated: 11 September 2026",
+  "updatedLabel": "Last updated: 14 September 2026",
   "footer": "© 2026 Pavel Palityka · Miraudio",
   "fallbackNotice": "Cijeli tekst prikazan je na engleskom. Obvezujuća verzija je engleska.",
   "sections": [
@@ -37,7 +37,7 @@
           "type": "ul",
           "items": [
             "<strong>Music on your device</strong> — file names, paths or content URIs, duration, and metadata tags (title, artist, album, cover art) read from audio files you choose to scan or open. This data is used to build your local library and is stored on your device.",
-            "<strong>Photos you choose for cover art</strong> — if you pick an image from your gallery to set or replace album/track cover art, the app may read that photo (Android photo/media permission). The image is used only to write cover art into the audio file you edit and for local preview; it is not uploaded to our servers.",
+            "<strong>Photos you choose for cover art</strong> — if you set or replace album/track cover art, the app opens the <strong>Android system photo picker</strong> so you can select one image. Miraudio does <strong>not</strong> request broad photo/gallery access (<code>READ_MEDIA_IMAGES</code> / <code>READ_MEDIA_VIDEO</code>). Only the image you pick is read, used to write cover art into the audio file you edit and for local preview; it is not uploaded to our servers.",
             "<strong>App settings and library database</strong> — theme, language, equalizer presets, selected folders, excluded folders, playback preferences, and similar settings stored locally (for example in a SQLite database and Android shared preferences).",
             "<strong>Playback state</strong> — current track, queue, and position needed for background playback and media controls.",
             "<strong>Purchase status</strong> — whether you unlocked Miraudio Pro via Google Play in-app billing. Verification is handled by Google; we store only the resulting Pro/unlock flag on your device.",
@@ -61,7 +61,6 @@
           "type": "ul",
           "items": [
             "<strong>Read audio / media</strong> — to scan and play music files you grant access to (MediaStore and, optionally, folder access via the system file picker).",
-            "<strong>Read photos / images</strong> — optional, only if you choose to add or change cover art from your gallery (for example Android 13+ <code>READ_MEDIA_IMAGES</code>). The app does not need this permission for normal music playback.",
             "<strong>Internet & network state</strong> — to load advertisements (free version) and to communicate with Google Play for purchases.",
             "<strong>Notifications & foreground service</strong> — to show playback controls while music plays in the background.",
             "<strong>Wake lock</strong> — to keep playback stable during background use."
@@ -69,7 +68,7 @@
         },
         {
           "type": "p",
-          "html": "You can revoke permissions in Android system settings; some features may stop working if you do."
+          "html": "Cover art selection uses the system photo picker and does <strong>not</strong> require a photos/images permission. You can revoke other permissions in Android system settings; some features may stop working if you do."
         }
       ]
     },
@@ -81,7 +80,7 @@
           "items": [
             "Play and organize music on your device",
             "Remember your settings, library, and queue",
-            "Let you set or change cover art from a photo you select (on device only)",
+            "Let you set or change cover art from a photo you select via the system picker (on device only)",
             "Show optional ads in the free version",
             "Process in-app purchases through Google Play",
             "Respond to support requests you send us"
