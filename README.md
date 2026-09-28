@@ -21,8 +21,8 @@ Static multilingual privacy policy for **Google Play Console** and the in-app **
 2. In Play Console → **App content** → **Privacy policy**, paste that URL.
 3. Update the URL in `AppSettings::privacyPolicyUrl()` if it differs from the default.
 
-Required because Miraudio uses **Appodeal** advertising mediation and **Google Play Billing**.
-The policy must mention collection of **IP address** and **advertising identifier (GAID)** and link to [Appodeal’s privacy policy](https://www.appodeal.com/privacy-policy).
+Required because Miraudio uses **Yandex Mobile Ads** advertising and **Google Play Billing**.
+The policy must mention collection of **IP address** and **advertising identifier (GAID)** and link to [Yandex’s privacy policy](https://yandex.com/legal/confidential/).
 
 ## app-ads.txt
 
@@ -31,7 +31,7 @@ Place `app-ads.txt` (this folder) at the **root of the developer website domain*
 `https://pavelpalityka.github.io/app-ads.txt`
 
 Crawlers look at the domain root, not `…/miraudio-privacy/app-ads.txt`.
-The file already has Appodeal account `439467`. AdMob / Meta placeholder lines are commented out until you have your own IDs.
+The file has the Yandex Advertising Network entry (`yandex.com, 108573304, DIRECT`) plus Yandex's reseller list. AdMob / Meta placeholder lines are commented out until you have your own IDs.
 
 ## Hosting options
 
